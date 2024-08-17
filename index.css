@@ -5,30 +5,30 @@
 
 body {
     background-color: black;
-        font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.nav i{
+.nav i {
     /* color: white; */
     color: #b3b3b3;
 }
 
-a{
+a {
     color: #b3b3b3;
     text-decoration: none;
 }
 
-.main{
+.main {
     display: flex;
     width: 98.5%;
     /* margin: auto; */
     margin: 10px;
 }
 
-.sidebar{
+.sidebar {
     height: 90vh;
     width: 28%;
     /* width: 200px; */
@@ -50,7 +50,7 @@ a{
     /* padding: 10px 20px; */
 }
 
-.home{
+.home {
     /* padding: 15px; */
     /* font-size: large; */
     /* margin: 30px; */
@@ -59,21 +59,25 @@ a{
     padding: 14px 20px;
     padding-top: 17px;
 }
-.home i{
+
+.home i {
     font-size: 20px;
 }
 
-.home:hover{
+.home:hover {
     /* font-size: xx-large; */
     cursor: pointer;
-    .home-icon{
+
+    .home-icon {
 
         color: ghostwhite;
     }
 }
-.search:hover{
+
+.search:hover {
     cursor: pointer;
-    .home-icon{
+
+    .home-icon {
 
         color: ghostwhite;
     }
@@ -82,67 +86,92 @@ a{
 /* .home-icon:hover{
     color: ghostwhite;
 } */
-.search i{
+.search i {
     font-size: 20px;
 }
-.search{
+
+.search {
     /* padding: 15px; */
     /* font-size: large; */
     /* padding-top: 5px; */
     padding: 14px 20px;
 }
-.library{
+
+.library {
     height: 72.5%;
     background-color: #121212;
     border-radius: 10px;
     /* color:ghostwhite; */
     color: #b3b3b3;
 }
-.container{
+
+.container {
     height: 84vh;
     border-radius: 10px;
-    width:76%;
+    width: 76%;
     background-color: aqua;
 }
-.head{
+
+.head {
     display: flex;
     justify-content: space-between;
     padding: 20px 20px;
 }
-.lib{
+
+.lib {
     display: flex;
     justify-content: space-evenly;
- 
+
 }
-.img1{   
+
+.lib h4:hover {
+    color: ghostwhite;
+    cursor: pointer;
+}
+
+.img1 {
     height: 20px;
     width: 20px;
     margin-right: 10px;
-
 }
 
-.itwo{
+.itwo {
     margin-left: 10px;
     /* font-weight: 300; */
 }
 
-.plus i{
+.plus i {
     font-size: 20px;
     padding-top: 2px;
-    color: wheat;
+    /* color: wheat; */
+    color: #b3b3b3;
     /* font-weight: 500; */
     opacity: 0.6;
 
 }
 
-h4{
-    font-size:medium;
+.plus i:hover {
+    color: ghostwhite;
+    opacity: 1;
+    /* border-radius: 50%; */
+    /* background-color: hsla(0, 0%, 100%, .14); */
+    /* padding: 5px; */
+    /* height: 30px; */
+    /* width: 30px; */
+    /* text-align: center; */
+    /* vertical-align: middle; */
+}
+
+h4 {
+    font-size: medium;
 
 }
-.btns{
+
+.btns {
     padding-left: 15px;
 }
-.btns button{
+
+.btns button {
     background-color: transparent;
     color: ghostwhite;
     border: none;
@@ -150,72 +179,108 @@ h4{
     padding: 8px 12px;
     background-color: aqua;
     border-radius: 20px;
-    font-size:14px;
+    font-size: 14px;
     font-weight: 500;
     /* --background-tinted-base: hsla(0, 0%, 100%, .1); */
-    background-color:hsla(0, 0%, 100%, .1)
+    background-color: hsla(0, 0%, 100%, .1)
 }
-.btns :first-child{
+
+.btns :first-child {
     margin-right: 5px;
     /* padding-top: 4px; */
 }
 
-.lib-search{
+.btns button:hover {
+    background-color: hsla(0, 0%, 100%, .14);
+    cursor: pointer;
+}
+
+.lib-search {
     display: flex;
     padding: 15px 24px;
     justify-content: space-between;
     margin-top: 5px;
     color: #b3b3b3;
 }
-.lib-search:first-child{
+
+.lib-search:first-child {
     margin-top: 8px;
 }
 
-.liked{
+.lib-search i {
+    transition: 0.3s;
+}
+
+.lib-search i:hover {
+    color: ghostwhite;
+    font-size: 17px;
+}
+
+.lib-search a {
+    transition: 0.3s;
+}
+
+.lib-search a:hover {
+    color: ghostwhite;
+    font-size: 16.5px;
+}
+
+.liked {
     display: flex;
     /* justify-content: center; */
     align-items: center;
     padding-left: 15px;
-    margin-bottom: 12px;
+    /* margin-bottom: px; */
+    height: 70px;
 }
-.liked img{
+
+.liked:hover{
+    background-color: #1f1f1f;
+    border-radius: 5px;
+}
+.liked img {
     height: 50px;
     width: auto;
     border-radius: 4px;
     margin-right: 10px;
 }
-.text{
+
+.text {
     font-size: 14px;
 }
-.text p{
+
+.text p {
     color: #b3b3b3;
 }
-.text h4{
+
+.text h4 {
     font-weight: 500;
     color: ghostwhite;
 }
 
-.lib-container{
-    height:39.4vh;
+.lib-container {
+    height: 39.4vh;
     /* display: flex;
     flex-direction: column; */
     overflow: auto;
     margin-top: 4px;
 }
+
 .lib-container::-webkit-scrollbar {
     /* display: none; */
     visibility: hidden;
     background-color: #1a1a1a;
     height: fit-content;
 }
+
 .lib-container::-webkit-scrollbar-thumb {
     /* border-radius: 10px; */
-    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #737272;
     /* border: 1px solid #000; */
-  }
+}
 
-  /* .lib-container::-webkit-scrollbar-track {
+/* .lib-container::-webkit-scrollbar-track {
     border: 1px solid #000;
     padding: 2px 0;
     background-color: #404040;
