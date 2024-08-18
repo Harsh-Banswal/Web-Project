@@ -340,20 +340,22 @@ h4 {
     opacity: 0.5;
 }
 
-.arrow button span:hover{
+.arrow button span:hover {
     opacity: 1;
     cursor: pointer;
 }
+
 .back {
     font-weight: 200;
     padding-left: 7px;
 }
 
-.bell i{
+.bell i {
     opacity: 0.5;
     transition: 0.2s;
 }
-.bell i:hover{
+
+.bell i:hover {
     opacity: 1;
     font-size: large;
     cursor: pointer;
@@ -379,10 +381,11 @@ h4 {
     transition: 0.2s;
 }
 
-.install:hover{
+.install:hover {
     font-size: 17px;
     cursor: pointer;
 }
+
 #Acc {
     /* background-color: aqua; */
     background-color: rgb(25, 230, 140);
@@ -411,7 +414,7 @@ h4 {
     margin-right: 5px;
 }
 
-.Account h5:hover{
+.Account h5:hover {
     font-size: 22px;
     cursor: pointer;
     padding-top: 0;
@@ -484,6 +487,77 @@ h4 {
 
 
 
+.head {
+    color: white;
+
+
+}
+
+.h12 {
+    font-size: 0.80rem;
+}
+
+.h11 {
+    font-size: 0.60rem;
+    opacity: 0.6;
+}
+
+.h11:hover {
+    cursor: pointer;
+    opacity: 1;
+    font-size: 0.65rem;
+}
+
+.madefor {
+    margin-left: 19px;
+    margin-right: 17px;
+}
+
+.i1 {
+    height: 150px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 18px;
+
+}
+
+.mcards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mp1 {
+    color: white;
+    font-size: 13px;
+    margin-left: 15px;
+    width: 90%;
+
+
+}
+
+.d1 {
+    opacity: 0.9;
+    width: 90%;
+}
+
+
+.d1:hover {
+    cursor: pointer;
+    background-color: transparent;
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+
 
 
 .player {
@@ -520,7 +594,7 @@ h4 {
 
 .box img {
     /* height: 70px; */
-    height:4rem;
+    height: 4rem;
     justify-content: center;
     border-radius: 5px;
     margin-top: 20px;
@@ -680,27 +754,28 @@ td a {
     padding-right: 0;
 }
 
-td a:hover{
+td a:hover {
     text-decoration: white underline;
     color: ghostwhite;
 }
 
-.foot{
-    margin-top: 40px;
+.foot {
+    margin-top: 80px;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
     margin-right: 30px;
-    
+
 }
 
-.social{
+.social {
     display: flex;
     margin-top: 8px;
 }
 
-.icons{
+.icons {
     height: 40px;
     width: 40px;
     /* background-color: violet; */
@@ -712,12 +787,12 @@ td a:hover{
     border-radius: 50%;
 }
 
-.icons a i{
+.icons a i {
     font-size: x-large;
     color: antiquewhite;
 }
 
-footer hr{
+footer hr {
     width: 92%;
     margin: auto;
     /* height: 1px; */
@@ -733,19 +808,21 @@ footer hr{
     justify-content: space-between;
     margin-bottom: 80px;
 }
-.link a:hover{
+
+.link a:hover {
     text-decoration: white underline;
     color: ghostwhite;
 }
 
-.link a{
+.link a {
     margin-right: 10px;
     font-size: 14px;
 }
 
-.spotify{
+.spotify {
     font-size: 14px;
 }
-.spotify:hover{
-    cursor:text;
+
+.spotify:hover {
+    cursor: text;
 }
