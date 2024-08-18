@@ -109,7 +109,7 @@ a {
     height: 84vh;
     border-radius: 10px;
     width: 76%;
-    background-color: aqua;
+    background-color: #121212;
 }
 
 .head {
@@ -236,11 +236,12 @@ h4 {
     height: 70px;
 }
 
-.liked:hover{
+.liked:hover {
     background-color: #1f1f1f;
     border-radius: 5px;
     cursor: pointer;
 }
+
 .liked img {
     height: 50px;
     width: auto;
@@ -288,3 +289,161 @@ h4 {
     padding: 2px 0;
     background-color: #404040;
   } */
+
+
+.top {
+    height: 22%;
+    /* background-color: maroon; */
+    /* background-color: rgb(114, 37, 37); */
+    background-color: #1f1f1f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.top header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 18px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.top header button {
+    background-color: #080202;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: ghostwhite;
+    /* padding: 4px; */
+    /* text-align: justify; */
+}
+
+.arrow button {
+    padding-top: 3px;
+    margin-right: 5px;
+    color: ghostwhite;
+}
+
+/* .arrow:first-child span{
+    padding-left: 7px;
+    } */
+.arrow button span{
+    font-size: 20px;
+}
+.back {
+    font-weight: 200;
+    padding-left: 7px;
+}
+
+.acc{
+    display: flex;
+}
+
+.acc button{
+    margin-left: 10px;
+}
+.install{
+    display: flex;
+    align-items: center;
+    width: 110px;
+    /* height: 30px;  */
+    background-color: #080202;
+    color: ghostwhite;
+    border-radius: 20px;
+    justify-content: center;
+}
+#Acc{
+    /* background-color: aqua; */
+    background-color: rgb(25, 230, 140);
+}
+
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Account{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+}
+
+.Account h5{
+    font-size: 20px;
+    padding-top: 1px;
+    color: #121212;
+}
+
+.music-btn{
+    margin-right: 5px;
+
+}
+.parentSmallCard{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding-left: 0.6875rem;
+}
+.smallcards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1px;
+    justify-content: center;
+    /* width: fit-content; */
+    /* display: grid; */
+    /* grid: repeat(2, 60px) / auto-flow  220px; */
+    /* grid-gap: 10px; */
+    /* grid-row-gap: 10px; */
+}
+
+.cards{
+    width: 12.75rem;
+    height: 3rem;
+}
+
+.cards {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-left: 15px; */
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 5px;
+    /* margin-bottom: px; */
+    /* height: 2.5rem; */
+}
+
+.cards:hover {
+    background-color: #3a3939;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cards img {
+    height: 3rem;
+    width: auto;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 10px;
+}
+
+/* .text {
+    font-size: 14px;
+}
+
+.text p {
+    color: #b3b3b3;
+}
+
+.text h4 {
+    font-weight: 500;
+    color: ghostwhite;
+} */
+
+.smallcards div{
+    /* border: 1px solid white; */
+    /* height: 60px; */
+}
