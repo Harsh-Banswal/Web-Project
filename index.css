@@ -337,11 +337,26 @@ h4 {
     } */
 .arrow button span {
     font-size: 20px;
+    opacity: 0.5;
 }
 
+.arrow button span:hover{
+    opacity: 1;
+    cursor: pointer;
+}
 .back {
     font-weight: 200;
     padding-left: 7px;
+}
+
+.bell i{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.bell i:hover{
+    opacity: 1;
+    font-size: large;
+    cursor: pointer;
 }
 
 .acc {
@@ -361,8 +376,13 @@ h4 {
     color: ghostwhite;
     border-radius: 20px;
     justify-content: center;
+    transition: 0.2s;
 }
 
+.install:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
 #Acc {
     /* background-color: aqua; */
     background-color: rgb(25, 230, 140);
@@ -384,11 +404,17 @@ h4 {
     font-size: 20px;
     padding-top: 1px;
     color: #121212;
+    transition: 0.2s;
 }
 
 .music-btn {
     margin-right: 5px;
+}
 
+.Account h5:hover{
+    font-size: 22px;
+    cursor: pointer;
+    padding-top: 0;
 }
 
 .parentSmallCard {
