@@ -25,7 +25,9 @@ a {
     display: flex;
     width: 98.5%;
     /* margin: auto; */
+    height: 84vh;
     margin: 10px;
+    margin-bottom: 0px;
 }
 
 .sidebar {
@@ -383,7 +385,6 @@ h4 {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
-    padding-left: 0.6875rem;
 }
 .smallcards{
     display: flex;
@@ -443,7 +444,169 @@ h4 {
     color: ghostwhite;
 } */
 
-.smallcards div{
-    /* border: 1px solid white; */
-    /* height: 60px; */
-}
+
+
+
+
+
+.player{
+    width: 98.5%;
+    /* height: 110px; */
+    height: 4.5rem;
+    background-color: black;
+    margin-top: 0;
+    border-radius: 10px;
+    margin: 0px 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .box{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box1{
+    font-size: 13px;
+    margin-left: 13px;
+    
+    color:ghostwhite;
+    
+  }
+ 
+   
+  
+  .box img{
+    height: 70px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+  }
+
+  .p1{
+    font-size: 9px;
+    color: #b3b3b3;
+    margin-left:13px;
+  }
+
+  /* .material-symbols-outlined{ */
+  .extra{
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+    margin:10px;
+
+  }
+
+  .c1{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    size: 20px;
+  }
+
+  .c2{
+    color: white;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .progress{
+    width: 70%;
+    margin: 3px;
+    appearance: none;
+    background-color: transparent;
+    
+
+  }
+
+  .progress::-webkit-slider-runnable-track{
+    background-color:#ddd;
+    border-radius: 100px;
+    height: 0.20rem;
+    
+
+  }
+  .progress::-webkit-slider-thumb{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: -6px;
+  }
+  .control{
+    width: 40%;
+
+  }
+
+  .s1{
+    opacity: 0.4;
+  }
+
+  .s2{
+    opacity:0.7;
+  }
+
+  .volume{
+    appearance: none;
+    width:90px;
+    background-color: transparent;
+  }
+
+  .volume:hover{
+    opacity: 1;
+    cursor: pointer;
+    font-size: 25px;
+
+
+  }
+  .volume::-webkit-slider-runnable-track{
+    background-color:#ddd;
+    border-radius: 100px;
+    height: 0.20rem;
+    margin-top: -6px;
+    
+    
+
+  }
+  .volume::-webkit-slider-thumb{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: -6px;
+
+  }
+
+  .options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s1:hover{
+    opacity: 1;
+    cursor: pointer;
+    font-size: 25px;
+
+
+  }
+
+  .s2:hover{
+    opacity: 1;
+    cursor: pointer;
+    font-size: 25px;
+
+  }
